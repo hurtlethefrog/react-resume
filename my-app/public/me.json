@@ -1,0 +1,18 @@
+[
+    {
+        "firstName": "Duncan",
+        "lastName": "Haran",
+        "email": "duncan.haran@gmail.com",
+        "phoneNumber": "438 355 1323",
+        "city": "Montreal",
+        "province": "QC",
+        "linkedin": "https://www.linkedin.com/in/duncan-haran-3256b4192/",
+        "github": "https://github.com/hurtlethefrog",
+        "bio": "Perpetually learning and enthusiastic web developer. I come from a varied background, having dabbled in everything from sales and landscaping, to live support and kitchen work. I feel most at home working on backend logic, and around complex and intricate UX. I'm friendly and love working with peers to both learn from those more experienced than myself and help those who aren't. Always curious and a lightning fast learner. Could talk for hours about PC gaming, cooking or a good fantasy/sci-fi novel.",
+        "skills": [
+            {
+                "Languages": []
+            }
+        ]
+    }
+]
