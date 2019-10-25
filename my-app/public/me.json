@@ -9,10 +9,23 @@
         "linkedin": "https://www.linkedin.com/in/duncan-haran-3256b4192/",
         "github": "https://github.com/hurtlethefrog",
         "bio": "Perpetually learning and enthusiastic web developer. I come from a varied background, having dabbled in everything from sales and landscaping, to live support and kitchen work. I feel most at home working on backend logic, and around complex and intricate UX. I'm friendly and love working with peers to both learn from those more experienced than myself and help those who aren't. Always curious and a lightning fast learner. Could talk for hours about PC gaming, cooking or a good fantasy/sci-fi novel.",
-        "skills": [
+        "skills":
             {
-                "Languages": []
-            }
-        ]
+                "languages": ["NodeJS", "ES 5/6 Javascript", "Ruby", "SQL", "HTML5", "CSS3"],
+                "frameworks": ["JQuery", "SASS", "Rails"],
+                "libraries": ["Bootstrap", "Express", "Bulma", "React"],
+                "testing/tools": ["Cypress", "Jest", "Mocha/Chai", "Storybook", "Git", "Active Record"]
+            },
+        "projects":
+            {
+                "Cup of Sugar": "A ten day challenge to build a web app from scratch. A group project focused around an intuitive user interface designed to encourage communication between neighbors. Heavy handed use of React along with NodeJS, and Bulma/SASS on the front end, Google maps API to assist with user registration, Ruby backend handling routes. and a PSQL database managed by Rails' active record,",
+                "Resource Wall": "Built in a week it was designed to allow users to share links to learning resources, or browse, rate, and comment on the resources of others. A NodeJS app using the Express library, Bootstrap and EJS along with PG and PSQL for data management.",
+                "Interview Scheduler": "A React single page application designed to allow students to book time with mentors via appointments. Storybook and Cypress used for integration/end to end testing, and Jest used for unit testing. Project includes the use of the newly introduced React hooks to handle state. Styling done in SASS.",
+                "Jungle on Rails": "Built with Ruby 2.3.5, and Rails 4.2.6. Jungle on Rails is an app that allows admins to list items for sale, create product categories. Basic HTTP authentication for admin login. ERB for view building. Active Record used for PSQL query and manipulation.",
+                "Tweeter": "The application's focus is to use JQuery and Ajax to make a seamless user interface experience. NodeJS and Express used for back-end functionality.",                
+                "Light BnB": "A room rental app designed for easy listing and booking of properties. Uses pure SQL queries to order and modify a PSQL database where all app data is stored in a normalized fashion. All logic is handled in modular Javascript helper les.",
+                "Tiny App": "A simple Express server setup to handle a multi-page app where user information is saved retrieved, encrypted, hashed and verified before being able to view, edit or delete that user's saved links. Front-end built with embedded Javascript and Bootstrap."
+            },
+        "education":
     }
 ]
