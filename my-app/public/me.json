@@ -48,8 +48,25 @@
                 }
             ],
         "education": 
-            {
-                "Lighthouse Labs"
-            }
+            [
+                {
+                    "where": "Lighthouse Labs",
+                    "what": "Full-Stack Web Development",
+                    "when": "June 2019 to Sept. 2019"
+                }
+            ],
+        "employment":
+            [
+                {
+                    "where": "Keyword Studios Player Support",
+                    "what": "Assisted customers with general trouble shooting and detailed bug reports. When dealing with unknown issues the ability to nd solutions quickly, with little guidance was valuable.",
+                    "when": "July 2018 to Nov. 2018"
+                },
+                {
+                    "where": "McDonalds Kitchen Staff",
+                    "what": "As a night-shift worker the job lead to excellent time management, and group coordination skills. Trained multiple new employees on both procedure and policy.",
+                    "when": "Aug. 2015 to Apr. 2017"
+                }
+            ]
     }
 ]
