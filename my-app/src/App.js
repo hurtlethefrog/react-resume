@@ -8,10 +8,10 @@ import Education from "./components/Education";
 import Employment from "./components/Employment";
 
 function App() {
-  console.log(resume.skills);
   return (
     <div className="App">
       <header className="App-header">
+        {/* use react router to display userinfo on homepage, with option to change to other sections, take whole page to display */}
         <Userinfo
           name={resume.name}
           email={resume.email}
