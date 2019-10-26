@@ -7,7 +7,7 @@ export default function Userinfo(props) {
     <section className="userinfo">
       <div>{props.name}</div>
       <button>{props.email}</button>
-      <button>{props.phoneNumber}</button>
+      <div>{props.phoneNumber}</div>
       <div>{props.location}</div>
       <button>{props.linkedin}</button>
       <button>{props.github}</button>

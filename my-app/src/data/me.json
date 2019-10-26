@@ -17,7 +17,7 @@
     ],
     "frameworks": ["JQuery", "SASS", "Rails"],
     "libraries": ["Bootstrap", "Express", "Bulma", "React"],
-    "testing/tools": [
+    "testingTools": [
       "Cypress",
       "Jest",
       "Mocha/Chai",

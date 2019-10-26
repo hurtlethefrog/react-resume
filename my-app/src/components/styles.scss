@@ -1,12 +1,6 @@
-$backgound-color: #e5e5d9;
-
-.App {
-    background-color: $backgound-color;
-    .App-header {
-        display:flex;
-        flex-direction: column;
-        .userInfo {
-            
-        }
-    }
+.userinfo {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
 }
