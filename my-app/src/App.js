@@ -1,5 +1,4 @@
 import React from 'react';
-// import './App.css';
 import Resume from "./data/me.json";
 
 function App() {
