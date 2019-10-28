@@ -1,13 +1,8 @@
 import React from "react";
-
+import listCreator from "../helpers/listCreator.js"
 import "./styles.scss";
 
 export default function Skills(props) {
-  const listCreator = arr => {
-    return arr.map(item => {
-      return <li key={item}>{item}</li>;
-    });
-  };
 
   return (
     <section className="skills">
