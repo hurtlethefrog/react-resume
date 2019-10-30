@@ -5,6 +5,7 @@ import "./styles.scss";
 import Userinfo from "./components/Userinfo";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Guestbook from "./components/Guestbook";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
             <li>
               <Link to="/projects">Projects</Link>
             </li>
+            <li>
+              <Link to="/guestbook">Guestbook</Link>
+            </li>
           </ul>
         </nav>
         <Switch>
@@ -34,6 +38,9 @@ function App() {
           </Route>
           <Route path="/projects">
             <Projects projects={resume.projects} />
+          </Route>
+          <Route path="/guestbook">
+            <Guestbook />
           </Route>
           <Route path="/">
             <Userinfo
