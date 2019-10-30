@@ -16,7 +16,7 @@
       "CSS3"
     ],
     "frameworks": ["JQuery", "SASS", "Rails"],
-    "libraries": ["Bootstrap", "Express", "Bulma", "React"],
+    "libraries": ["Bootstrap 3", "Express", "Bulma", "React"],
     "testingTools": [
       "Cypress",
       "Jest",

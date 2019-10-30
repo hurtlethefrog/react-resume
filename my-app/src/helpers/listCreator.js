@@ -1,9 +1,11 @@
-import React from "react"
+import React from "react";
 
 const listCreator = arr => {
-    return arr.map(item => {
-      return <li key={item}>{item}</li>;
-    });
-  };
+  let i = 0
+  return arr.map(item => {
+    i++
+    return <li key={item + i}>{item}</li>;
+  });
+};
 
-  export default listCreator
+export default listCreator;
