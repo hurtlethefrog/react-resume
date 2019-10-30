@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./styles.scss";
+import educationMapper from "../helpers/educationMapper";
 
 export default function Userinfo(props) {
   return (
@@ -12,6 +13,7 @@ export default function Userinfo(props) {
       <button>{props.linkedin}</button>
       <button>{props.github}</button>
       <div>{props.bio}</div>
+      <div>{educationMapper(props.education)}</div>
     </section>
   );
 }

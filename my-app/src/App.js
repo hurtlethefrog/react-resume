@@ -5,8 +5,6 @@ import "./styles.scss";
 import Userinfo from "./components/Userinfo";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Education from "./components/Education";
-import Employment from "./components/Employment";
 
 function App() {
   return (
@@ -23,12 +21,6 @@ function App() {
             <li>
               <Link to="/projects">Projects</Link>
             </li>
-            <li>
-              <Link to="/employment">Employment</Link>
-            </li>
-            <li>
-              <Link to="/education">Education</Link>
-            </li>
           </ul>
         </nav>
         <Switch>
@@ -43,12 +35,6 @@ function App() {
           <Route path="/projects">
             <Projects projects={resume.projects} />
           </Route>
-          <Route path="/education">
-            <Education education={resume.education} />
-          </Route>
-          <Route path="/employment">
-            <Employment employment={resume.employment} />
-          </Route>
           <Route path="/">
             <Userinfo
               name={resume.name}
@@ -58,6 +44,7 @@ function App() {
               linkedin={resume.linkedin}
               github={resume.github}
               bio={resume.bio}
+              education={resume.education}
             />
           </Route>
         </Switch>

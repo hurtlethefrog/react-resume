@@ -6,6 +6,13 @@
   "linkedin": "https://www.linkedin.com/in/duncan-haran-3256b4192/",
   "github": "https://github.com/hurtlethefrog",
   "bio": "Perpetually learning and enthusiastic web developer. I come from a varied background, having dabbled in everything from sales and landscaping, to live support and kitchen work. I feel most at home working on backend logic, and around complex and intricate UX. I'm friendly and love working with peers to both learn from those more experienced than myself and help those who aren't. Always curious and a lightning fast learner. Could talk for hours about PC gaming, cooking or a good fantasy/sci-fi novel.",
+  "education": [
+    {
+      "where": "Lighthouse Labs",
+      "what": "Full-Stack Web Development",
+      "when": "June 2019 to Sept. 2019"
+    }
+  ],
   "skills": {
     "languages": [
       "NodeJS",
@@ -54,25 +61,6 @@
     {
       "title": "Tiny App",
       "description": "A simple Express server setup to handle a multi-page app where user information is saved retrieved, encrypted, hashed and verified before being able to view, edit or delete that user's saved links. Front-end built with embedded Javascript and Bootstrap."
-    }
-  ],
-  "education": [
-    {
-      "where": "Lighthouse Labs",
-      "what": "Full-Stack Web Development",
-      "when": "June 2019 to Sept. 2019"
-    }
-  ],
-  "employment": [
-    {
-      "where": "Keyword Studios Player Support",
-      "what": "Assisted customers with general trouble shooting and detailed bug reports. When dealing with unknown issues the ability to nd solutions quickly, with little guidance was valuable.",
-      "when": "July 2018 to Nov. 2018"
-    },
-    {
-      "where": "McDonalds Kitchen Staff",
-      "what": "As a night-shift worker the job lead to excellent time management, and group coordination skills. Trained multiple new employees on both procedure and policy.",
-      "when": "Aug. 2015 to Apr. 2017"
     }
   ]
 }
