@@ -12,8 +12,6 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 
 import os
-from dotenv import load_dotenv
-load_dotenv()
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -24,10 +22,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv("SECRET_KEY")
+SECRET_KEY = '47s*r^uby-dl)s(1!a0*_6kfc+h2g(b^1u$1gf$=)aqp$h!q)8'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+#" SECURITY WARNING: don't run with debug turned on in production!
+# EBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -80,9 +78,9 @@ WSGI_APPLICATION = 'api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.getenv("NAME"),
-        'USER': os.getenv("USER"),
-        'PASSWORD': os.getenv("PASSWORD"),
+        'NAME': 'resume',
+        'USER': 'resume_user',
+        'PASSWORD': '7913',
         'HOST': '',
         'PORT': '5432',
     }
