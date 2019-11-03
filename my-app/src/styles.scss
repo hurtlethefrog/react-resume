@@ -3,3 +3,9 @@ $backgound-color: #e5e5d9;
 #root {
     background-color: $backgound-color;
 }
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -7,11 +7,11 @@ export default function Userinfo(props) {
   return (
     <section className="userinfo">
       <div>{props.name}</div>
-      <button>{props.email}</button>
       <div>{props.phoneNumber}</div>
       <div>{props.location}</div>
-      <button>{props.linkedin}</button>
-      <button>{props.github}</button>
+      <a href={props.linkedin} rel="external">Linkedin</a>
+      <a href={props.github} rel="external">GitHub</a>
+      <a href={props.email}>{props.email.slice(7)}</a>
       <div>{props.bio}</div>
       <div>{educationMapper(props.education)}</div>
     </section>
