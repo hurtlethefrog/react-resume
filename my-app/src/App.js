@@ -55,8 +55,6 @@ function App() {
             />
           </Route>
         </Switch>
-
-        {/* use react router to display userinfo on homepage, with option to change to other sections, take whole page to display */}
       </div>
     </Router>
   );
