@@ -6,6 +6,11 @@ import educationMapper from "../helpers/educationMapper";
 export default function Userinfo(props) {
   return (
     <section className="userinfo">
+      <img
+        className="face"
+        alt="face"
+        src="https://res.cloudinary.com/dkwqyaedt/image/upload/v1572873621/20190912-_ANA5189_tanfm4.jpg"
+      ></img>
       <div>{props.name}</div>
       <div>{props.phoneNumber}</div>
       <div>{props.location}</div>

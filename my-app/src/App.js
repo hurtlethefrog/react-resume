@@ -10,23 +10,23 @@ import Guestbook from "./components/Guestbook";
 function App() {
   return (
     <Router>
+      <nav>
+        <ul className="nav">
+          <li>
+            <Link to="/">About</Link>
+          </li>
+          <li>
+            <Link to="/skills">Skills</Link>
+          </li>
+          <li>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li>
+            <Link to="/guestbook">Guestbook</Link>
+          </li>
+        </ul>
+      </nav>
       <div className="App">
-        <nav>
-          <ul className="nav">
-            <li>
-              <Link to="/">About</Link>
-            </li>
-            <li>
-              <Link to="/skills">Skills</Link>
-            </li>
-            <li>
-              <Link to="/projects">Projects</Link>
-            </li>
-            <li>
-              <Link to="/guestbook">Guestbook</Link>
-            </li>
-          </ul>
-        </nav>
         <Switch>
           <Route path="/skills">
             <Skills

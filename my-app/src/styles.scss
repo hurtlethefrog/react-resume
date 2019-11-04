@@ -3,7 +3,11 @@ $backgound-color: #e5e5d9;
 #root {
   background-color: $backgound-color;
 }
-
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .nav {
   list-style: none;
   display: flex;
