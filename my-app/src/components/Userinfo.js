@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./styles.scss";
-import educationMapper from "../helpers/educationMapper";
 
 export default function Userinfo(props) {
   return (
@@ -12,6 +11,7 @@ export default function Userinfo(props) {
         src="https://res.cloudinary.com/dkwqyaedt/image/upload/v1572873621/20190912-_ANA5189_tanfm4.jpg"
       ></img>
       <div>{props.name}</div>
+      <div className="title">Full-Stack Web Developer</div>
       <div>{props.phoneNumber}</div>
       <div>{props.location}</div>
       <div className="contact-info">
@@ -35,7 +35,6 @@ export default function Userinfo(props) {
         </a>
       </div>
       <div className="bio">{props.bio}</div>
-      <div>{educationMapper(props.education)}</div>
     </section>
   );
 }
